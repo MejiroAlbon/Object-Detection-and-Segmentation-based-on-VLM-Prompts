@@ -1,0 +1,8 @@
+# Core dependencies
+requests
+Pillow
+numpy
+scikit-learn
+
+# Optional dependencies
+tqdm
