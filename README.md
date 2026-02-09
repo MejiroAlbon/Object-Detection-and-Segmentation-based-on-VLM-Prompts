@@ -88,13 +88,13 @@ KNOWLEDGE_BASE_PATH = "knowledge_base.txt"  # 知识库文件路径
 **处理目录中的所有图像**：
 
 ```bash
-python detect_bridge_damage_types.py --dir <输入目录> --output <输出目录>
+python main.py --dir <输入目录> --output <输出目录>
 ```
 
 **处理指定数量的随机图像**：
 
 ```bash
-python detect_bridge_damage_types.py --dir <输入目录> --count 10 --output <输出目录>
+python main.py --dir <输入目录> --count 10 --output <输出目录>
 ```
 
 ### 2. 单文件模式
@@ -102,7 +102,7 @@ python detect_bridge_damage_types.py --dir <输入目录> --count 10 --output <�
 **处理单个图像**：
 
 ```bash
-python detect_bridge_damage_types.py --file <图像路径> --output <输出目录>
+python main.py --file <图像路径> --output <输出目录>
 ```
 
 ### 3. 自定义输出格式
@@ -110,13 +110,13 @@ python detect_bridge_damage_types.py --file <图像路径> --output <输出目�
 **生成 Markdown 格式报告**（默认）：
 
 ```bash
-python detect_bridge_damage_types.py --dir <输入目录> --format md
+python main.py --dir <输入目录> --format md
 ```
 
 **生成文本格式报告**：
 
 ```bash
-python detect_bridge_damage_types.py --dir <输入目录> --format txt
+python main.py --dir <输入目录> --format txt
 ```
 
 ## 项目结构
@@ -127,7 +127,7 @@ VLM_identification/
 │   ├── *.jpg                 # 标注后的图像
 │   └── *.md/txt              # 分析报告
 ├── config.py                 # 配置文件
-├── detect_bridge_damage_types.py # 主脚本
+├── main.py                   # 主脚本
 ├── requirements.txt          # 项目依赖
 ├── README.md                 # 项目说明
 └── .gitignore                # Git 忽略文件
