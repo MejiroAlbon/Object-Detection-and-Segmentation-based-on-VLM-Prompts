@@ -180,9 +180,7 @@ object2, X:50%-75%, Y:40%-60%, [400, 300, 600, 500]
 | DEFAULT_INPUT_DIR | 默认输入目录 | input_images | ❌ |
 | DEFAULT_OUTPUT_DIR | 默认输出目录 | output_reports | ❌ |
 | KNOWLEDGE_BASE_PATH | 知识库文件路径 | knowledge_base.txt | ❌ |
-| RAG_TOP_K | RAG 检索 top-k | 3 | ❌ |
-| MAX_CHUNK_SIZE | 文本分块最大大小 | 500 | ❌ |
-| CHUNK_OVERLAP | 文本分块重叠大小 | 50 | ❌ |
+
 
 ## 注意事项
 
