@@ -1,4 +1,4 @@
-# 目标检测系统 (General Object Detector)
+# 基于VLM实现的目标检测与分割
 
 一个基于 VLM (Vision Language Model) 的通用目标检测系统，能够自动识别图像中的目标类型、精确定位目标位置并生成详细的分析报告。
 
