@@ -7,10 +7,10 @@ import os
 
 # API Configuration
 API_KEY = None
-BASE_URL = "https://api.siliconflow.cn"
+BASE_URL = None
 
 # Model Configuration
-MODEL_NAME = "Qwen/Qwen3-VL-235B-A22B-Thinking"
+MODEL_NAME = None
 MAX_TOKENS = 3500
 
 # Supported Object Types
