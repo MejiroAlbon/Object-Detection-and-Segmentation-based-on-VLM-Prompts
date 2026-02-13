@@ -6,7 +6,7 @@ Configuration for Object Detector
 import os
 
 # API Configuration
-API_KEY = "sk-kzomuudttelvubcmadjmyasvfzomsockmxnrnxsdmutkptwl"
+API_KEY = None
 BASE_URL = "https://api.siliconflow.cn"
 
 # Model Configuration
